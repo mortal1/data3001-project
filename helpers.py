@@ -18,5 +18,5 @@ def save_colouring(A, filename):
     df = pd.DataFrame()
     df['index'] = IOTA+1
     # df['score'] = [int(i*100) for i in scores]
-    df['score'] = np.around(scores*100)
+    df['score'] = (scores*100).astype(int)
     df.to_csv(filename, sep='\t', header=False, index=False)
