@@ -23,3 +23,12 @@ Did we use Gamma to test our models
  
  The real test is whether the highlighted regions actually correspond to critical regions of the protein, and how much a user can be confident in those results, and that is unfortunately outside of the scope of the project. 
  Since we're using a novel method, and the problem doesn't
+
+
+
+
+
+
+misc text dump
+
+to capture our intuition that a critical region’s purpose in the protein has to do with its physical structure. 
