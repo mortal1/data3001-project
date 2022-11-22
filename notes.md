@@ -32,3 +32,5 @@ Did we use Gamma to test our models
 misc text dump
 
 to capture our intuition that a critical region’s purpose in the protein has to do with its physical structure. 
+
+$$s(i, j) = \frac{(j-i)^{1.2}}{\text{var}(p[i..j])} \cdot \frac{\text{mean}(e[i..j])}{\text{mean}(o[i..j])}$$

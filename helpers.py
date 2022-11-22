@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
+PROTEINS = ['O43526', 'P01009', 'P06576', 'P17181', 'P60484', 'P68133', 'P69905', 'Q5S007', 'Q86VV8', 'Q969H0']
+
+
 def vectorise(x):
     return np.array(x).reshape((-1, 1))
 
